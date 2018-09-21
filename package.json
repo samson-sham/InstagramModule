@@ -1,0 +1,27 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "main": "InstagramModule.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha",
+    "apiTest": "NODE_ENV=test NODE_TLS_REJECT_UNAUTHORIZED=0 PROXY=1 mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "renka": "^1.0.1",
+    "request": "^2.80.0",
+    "yargs": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "fs-extra": "^7.0.0",
+    "mocha": "^5.0.1"
+  }
+}
